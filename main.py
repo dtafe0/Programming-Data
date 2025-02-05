@@ -14,25 +14,12 @@ y = 10
 st = "x is less than y" if (x<y) else "x is greater than or the same"
 print (st)
 
-# 1
-print("area =", 2.6 * 3.7)
+models = ["Ford", "Holden", "Toyota", "Mitsubishi", "Mazda"]
+for model in models:
+    print(model)
 
-# 2
-H = "hello"
-W = "world"
-print(H + W)
+s = 0
+for i in range(1,11):
+    s = s+i
+print(s)
 
-# 3 
-g = "giraffe"
-n = 3
-print(n*g)
-print(n,g)
-print(str(n)+g)
-
-# 4 
-print("The room as an area of ", 2.6 * 3.7, "m2")
-
-# 5 
-print("Hello, Welcome to programming")
-name = input("what is your name?")
-print("nice to meet you", name)
