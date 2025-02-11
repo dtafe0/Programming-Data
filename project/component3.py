@@ -1,4 +1,4 @@
-# 	Component 3 – 
+# 	Component 3 – Daniel Ly 11/02/2025
 # view existing accounts (displaying users).
 # This component displays a numbered list of the existing user
 #  accounts (not including their passwords).
@@ -18,7 +18,4 @@ with open(file_path, 'r') as file:
     # iterate through each line using for loop
     for index, eachLine in enumerate(list,start=1):
         #print(eachLine)
-        print(f"{index}", eachLine.split(",")[0])
-
-# close file
-file.close()
+        print(f"{index}.", eachLine.split(',', 1)[0])
