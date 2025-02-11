@@ -1,0 +1,48 @@
+Task 01
+Write code that declares variables to represent the length and width of a room in metres. Assign appropriate values to the variables - for example, length = 15 and width = 25.
+Compute and display the floor space of the room in square meter (area = length * width).
+Display explanatory text with the value - for example:
+The floor space is 375 square meters.
+
+Task 02
+Write code that declares a variable named minutes, which holds minutes worked on a job, and assign a value.
+Display the value in hours and minutes; for example:
+197 minutes becomes 3 hours and 17 minutes.
+Be sure to use a named constant where appropriate.
+
+Task 03
+Write code that declares variables to represent a user’s hourly rate of pay and the number of hours worked.
+Assign appropriate values to the variables, then calculate and display the user’s gross pay for a week, the withholding tax (15% of gross pay), and the net pay (gross pay – withholding). An example output would be:
+Gross Pay: 1500
+Withholding Tax: 225
+Net Pay: 1275
+
+Task 04
+Write code that declares a variable to represent temperature in Fahrenheit (F). Calculate and display the equivalent temperature in Celsius (C) by applying the following formula: C = (F - 32) * 5 / 9
+Display both values. For example:
+Fahrenheit: 89.6
+Celsius: 32
+Note: (Use the internet to compare your application result to see if the calculation is correct.)
+
+Task 05
+Travel Tickets Company sells tickets for airlines, tours, and other travel-related services. Because ticket agents frequently mistype long ticket numbers, Travel Tickets has asked you to write an application that indicates invalid ticket number entries.
+In your code declare a variable to hold a six-digit ticket number. Ticket numbers are designed so that if you drop the last digit of the number, then divide the number by 7, the remainder of the division will be identical to the last dropped digit. This process is illustrated in the following example:
+a. Assign a value for the ticket number; for example, 123454.
+b. Remove the last digit, leaving 12345.
+c. Determine the remainder when the ticket number is divided by 7. In this case, 12345 divided by 7 leaves a remainder of 4.
+d. Assign the Boolean value of the comparison between the remainder and the digit dropped from the ticket number. To compare two values, use the == symbol (double equals).
+e. Display the result - true or false –
+Test the application with the following ticket numbers:
+• 123454; the comparison should evaluate to true
+• 147103; the comparison should evaluate to true
+• 154123; the comparison should evaluate to false
+
+Task 06
+(Compute the volume of a cylinder) Write a program that reads in the radius and length of a cylinder and computes the area and volume using the following formulas:
+Area = radius * radius * π
+(In order to obtain the value of π you will need to use math.pi from the math module)
+Volume = area * length
+Here is a sample run:
+Given that the radius and length of a cylinder are 5.5 and 12 respectively, the output of the code should be:
+The area is: 95.0331
+The volume is: 1140.4

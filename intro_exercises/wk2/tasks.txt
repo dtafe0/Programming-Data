@@ -1,0 +1,22 @@
+Exercise 1: 
+Write a program to calculate net salary for employee. Take input for the employee name, number of hours and their hourly rate. 
+
+Exercise 2:
+Write a program to calculate the area of a rectangle. Take inputs for the appropriate variables.
+
+Exercise 3:
+Write a program to calculate the area of a circle. Take inputs for the appropriate variables.
+
+Exercise 4:
+Write a program to calculate the area and volume of a cylinder. Take inputs for the appropriate variables.
+
+Exercise 5:
+ Write code that takes inputs for a variable named minutes, which holds minutes worked on a job, and assign a value. Output the value in hours and minutes; for example: 
+ 197 minutes becomes 3 hours and 17 minutes. 
+
+Exercise 6:
+ Write code that takes input and declares a variable to represent temperature in Fahrenheit (F). Calculate and display the equivalent temperature in Celsius (C) by applying the following formula: C = (F - 32) * 5 / 9 
+ Display both values.  For example: 
+Fahrenheit: 89.6 
+Celsius: 32 
+ Note: (Use the internet to compare your application result to see if the calculation is correct.)

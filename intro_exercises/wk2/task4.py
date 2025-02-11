@@ -1,3 +1,7 @@
+# Exercise 4:
+# Write a program to calculate the area and volume of a cylinder. 
+# Take inputs for the appropriate variables.
+
 import math
 
 rad = input("enter radius:")
