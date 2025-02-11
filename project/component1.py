@@ -17,28 +17,9 @@ login = username +","+ password
 valid_entry = False
 
 # open the accounts.txt file
-file = open("accounts.txt", "r")
+file = open("accounts.txt", "a")
 
-# check if the file is opened in read only mode
-if file.mode == 'r':
 
-    # read the entire file and return it as a list of strings
-    # where each string represents a line from the file
-    list = file.readlines()
-
-    # iterate through each line using for loop
-    for eachLine in list:
-
-        # selection using equality operator
-        if eachLine.strip() == login:
-
-            # set flag for valid entry to true
-            valid_entry = True
-
-            # exit the loop
-            break
-
-    # show the result to the user
     print("login for", username, "is", valid_entry)
 
 # close file

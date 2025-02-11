@@ -16,9 +16,9 @@ with open(file_path, 'r') as file:
     list = file.readlines()
 
     # iterate through each line using for loop
-    for eachLine in enumerate(list, start=1):
+    for index, eachLine in enumerate(list,start=1):
         #print(eachLine)
-        print(eachLine + "." + eachLine.split(",")[0])
+        print(f"{index}", eachLine.split(",")[0])
 
 # close file
 file.close()
