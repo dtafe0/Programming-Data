@@ -14,13 +14,13 @@ file_name = "accounts.txt"
 file_path = os.path.join(script_dir, file_name)
 
 # define the simple program function
-def simple_program(option):
+def simple_program(command):
 
     # declare a globally accessible variable to check if logged in
     global isLoggedin
 
     # match each input to the correct option
-    match option:
+    match command:
 
         # component 1 - adds a new user login to accounts.txt
         case '1'|'register':
@@ -51,7 +51,7 @@ def simple_program(option):
 
             # kick user back to main menu if already logged in
             try:
-                if isLoggedin == True:
+                if isLoggedin:
                     return "Already logged in!"
             except NameError:
                 print("first time logging in....")
@@ -93,7 +93,7 @@ def simple_program(option):
 
             # kick user back to main menu if not logged in
             try:
-                if isLoggedin != True:
+                if not isLoggedin:
                     return "you must be logged in!"
                 else:
                     print("isLoggedin is:",isLoggedin)
